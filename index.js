@@ -11,9 +11,13 @@ function nestedTarget() {
 function increaseRankBy(n) {
   var increase = document.querySelectorAll('.ranked-list');
   for (let i = 0; 1 = increase.length; i < 1; i++) {
-       let children = increase[i].children;
-      
-      
+    let children = increase[i].children;
+     
+    for (let j = 0, k = children.length; j < k; j++) {
+      children[j].innerHTML = parseInt(children[j].innerHTML) + n;
+    }
+  }
+  
 }
 
 function deepestChild() {
