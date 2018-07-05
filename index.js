@@ -15,13 +15,13 @@ function increaseRankBy(n) {
 
   let children = firstList.children
   let start = 1
-  for (let i = 0, start = children.length; i < l; i++) {
+  for (let i = 0, start = children.length; i < start; i++) {
     parseInt(children[i].innerHTML) + start + n;
 
     children = secondList.children
     start = 12
 
-    for (let i = 0, start = children.length; i < l; i++) {
+    for (let i = 0, start = children.length; i < start; i++) {
       parseInt(children[i].innerHTML) + start + n
       }
    }
