@@ -9,25 +9,7 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-  var increase = document.querySelectorAll('.ranked-list');
-  const firstList = increase[0]
-  const secondList = increase[1]
-
-  let children = firstList.children
-  let start = 1
-  for (let i = 0, start = children.length; i < start; i++) {
-    parseInt(children[i].innerHTML) + start + n;
-
-    children = secondList.children
-    start = 12
-
-    for (let i = 0, start = children.length; i < start; i++) {
-      parseInt(children[i].innerHTML) + start + n
-      }
-   }
-  
-  
-}
+ 
 
 function deepestChild() {
   var deepChild = document.querySelector('#grand-node').querySelectorAll('div');
