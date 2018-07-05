@@ -11,7 +11,7 @@ function nestedTarget() {
 function increaseRankBy(n) {
   var increase = document.querySelector('.ranked-list');
   const firstList = ranked-lists[0];
-  const secondList = rankedLists[1];
+  const secondList = ranked-lists[1];
   let children = firstList.children;
   let start = 1;
       
