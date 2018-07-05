@@ -14,3 +14,7 @@ function increaseRankBy(n) {
        return  parseInt(increase[i + n]);
       }
 }
+
+function deepestChild() {
+  var deepChild = document.querySelector('#grandnode') {
+}
